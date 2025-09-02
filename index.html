@@ -4,19 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Japjot Singh | Senior Data Engineer</title>
-
-  <!-- ====== ALL OF SAHIL'S INLINE CSS KEPT HERE ====== -->
-  <style>
-    /* Loader, navbar, hero, section, skills, cards, animations etc. */
-    /* (This is Sahil’s giant <style> block — KEEP IT UNCHANGED) */
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
-  <!-- Loader -->
-  <div class="loader-container" id="loader">
-    <div class="loader"></div>
-  </div>
-
   <!-- Navbar -->
   <header>
     <nav class="navbar">
@@ -35,7 +26,7 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section id="home" class="hero">
     <div class="hero-content">
       <h2>Hello, I'm <span class="highlight">Japjot Singh</span></h2>
@@ -51,44 +42,34 @@
   <section id="about" class="about">
     <h2 class="section-title">About Me</h2>
     <p>
-      I am a Senior Data Engineer based in New York with expertise in designing and scaling ETL/ELT pipelines,
-      real-time streaming systems, and cloud-native architectures across AWS, Azure, and GCP. 
-      Proven record of reducing pipeline failures by 40%, cutting infrastructure setup time by 80%, 
-      and delivering 25% cloud cost savings while enabling analytics, BI, and ML workloads.
+      I am a Senior Data Engineer based in New York with extensive experience designing and scaling
+      ETL/ELT pipelines, real-time streaming systems, and cloud-native architectures across AWS, Azure,
+      and GCP. Skilled in Python, SQL, Spark, Kafka, Airflow, DBT, and Snowflake, I deliver governed,
+      high-quality data for analytics, BI, and ML workloads.
     </p>
   </section>
 
   <!-- Skills -->
   <section id="skills" class="skills">
     <h2 class="section-title">Technical Skills</h2>
-    <p class="section-subtitle">A modern data engineering toolkit</p>
-
     <div class="skills-grid">
-      <!-- Data Engineering -->
       <div class="skill-card">
         <h3>Data Engineering</h3>
-        <div class="skill-bar"><span>Python (PySpark, Pandas, boto3)</span><div class="progress"><div class="progress-fill" style="width:95%"></div></div><span class="percent">95%</span></div>
-        <div class="skill-bar"><span>SQL (Snowflake, PostgreSQL, MySQL)</span><div class="progress"><div class="progress-fill" style="width:92%"></div></div><span class="percent">92%</span></div>
+        <div class="skill-bar"><span>Python</span><div class="progress"><div class="progress-fill" style="width:95%"></div></div><span class="percent">95%</span></div>
+        <div class="skill-bar"><span>SQL</span><div class="progress"><div class="progress-fill" style="width:92%"></div></div><span class="percent">92%</span></div>
         <div class="skill-bar"><span>ETL/ELT Pipelines</span><div class="progress"><div class="progress-fill" style="width:90%"></div></div><span class="percent">90%</span></div>
-        <div class="skill-bar"><span>CDC / Data Integration</span><div class="progress"><div class="progress-fill" style="width:85%"></div></div><span class="percent">85%</span></div>
-        <div class="skill-bar"><span>Dimensional Modeling</span><div class="progress"><div class="progress-fill" style="width:82%"></div></div><span class="percent">82%</span></div>
       </div>
-
-      <!-- Cloud -->
       <div class="skill-card">
-        <h3>Cloud & Platforms</h3>
-        <div class="skill-bar"><span>AWS (Glue, Redshift, EMR, Kinesis)</span><div class="progress"><div class="progress-fill" style="width:90%"></div></div><span class="percent">90%</span></div>
-        <div class="skill-bar"><span>Azure (ADF, Synapse, Purview)</span><div class="progress"><div class="progress-fill" style="width:85%"></div></div><span class="percent">85%</span></div>
-        <div class="skill-bar"><span>GCP (BigQuery, Dataflow)</span><div class="progress"><div class="progress-fill" style="width:80%"></div></div><span class="percent">80%</span></div>
-        <div class="skill-bar"><span>Snowflake (Streams, Tasks, Clustering)</span><div class="progress"><div class="progress-fill" style="width:88%"></div></div><span class="percent">88%</span></div>
+        <h3>Cloud Platforms</h3>
+        <div class="skill-bar"><span>AWS</span><div class="progress"><div class="progress-fill" style="width:90%"></div></div><span class="percent">90%</span></div>
+        <div class="skill-bar"><span>Azure</span><div class="progress"><div class="progress-fill" style="width:85%"></div></div><span class="percent">85%</span></div>
+        <div class="skill-bar"><span>GCP</span><div class="progress"><div class="progress-fill" style="width:80%"></div></div><span class="percent">80%</span></div>
       </div>
-      <!-- Infrastructure -->
       <div class="skill-card">
-        <h3>Infrastructure & Automation</h3>
-        <div class="skill-bar"><span>Airflow DAGs</span><div class="progress"><div class="progress-fill" style="width:90%"></div></div><span class="percent">90%</span></div>
-        <div class="skill-bar"><span>DBT (SCD2, lineage, testing)</span><div class="progress"><div class="progress-fill" style="width:88%"></div></div><span class="percent">88%</span></div>
-        <div class="skill-bar"><span>Terraform & GitHub Actions (CI/CD)</span><div class="progress"><div class="progress-fill" style="width:87%"></div></div><span class="percent">87%</span></div>
-        <div class="skill-bar"><span>Docker & CloudWatch</span><div class="progress"><div class="progress-fill" style="width:82%"></div></div><span class="percent">82%</span></div>
+        <h3>Tools & Infra</h3>
+        <div class="skill-bar"><span>Airflow</span><div class="progress"><div class="progress-fill" style="width:90%"></div></div><span class="percent">90%</span></div>
+        <div class="skill-bar"><span>DBT</span><div class="progress"><div class="progress-fill" style="width:88%"></div></div><span class="percent">88%</span></div>
+        <div class="skill-bar"><span>Terraform</span><div class="progress"><div class="progress-fill" style="width:85%"></div></div><span class="percent">85%</span></div>
       </div>
     </div>
   </section>
@@ -96,7 +77,6 @@
   <!-- Experience -->
   <section id="experience" class="experience">
     <h2 class="section-title">Experience</h2>
-
     <div class="exp-card">
       <h3>Senior Data Engineer @ Computational Group</h3>
       <span>Sept 2023 – Present | New York</span>
@@ -107,7 +87,6 @@
         <li>Optimized Snowflake clustering → BI dashboards 35% faster.</li>
       </ul>
     </div>
-
     <div class="exp-card">
       <h3>Data Engineer @ ZS Associates</h3>
       <span>Jan 2022 – Aug 2023 | New Jersey</span>
@@ -117,7 +96,6 @@
         <li>Terraform modules + CI/CD → 80% faster environment setup.</li>
       </ul>
     </div>
-
     <div class="exp-card">
       <h3>Data Engineer @ Bain & Company</h3>
       <span>Jul 2020 – Dec 2021 | New York</span>
@@ -174,17 +152,6 @@
   </footer>
 
   <!-- Typed.js -->
-  <script>
-    new Typed("#typed", {
-      strings: ["Senior Data Engineer", "Cloud & Streaming Specialist", "AWS | Snowflake | Databricks"],
-      typeSpeed: 50,
-      backSpeed: 30,
-      backDelay: 2000,
-      loop: true
-    });
-  </script>
-
-  <!-- Sahil’s script for dark/light mode, scroll, loader -->
-  <script src="assets/js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
